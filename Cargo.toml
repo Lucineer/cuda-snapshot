@@ -1,0 +1,8 @@
+[package]
+name = "cuda-snapshot"
+version = "0.1.0"
+edition = "2021"
+description = "State snapshotting — checkpoint/restore, delta encoding, versioned snapshots, and point-in-time recovery for agent state"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
